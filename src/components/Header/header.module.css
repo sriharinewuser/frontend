@@ -1,16 +1,16 @@
 .header {
-    background: white;
+    background: rgb(17, 1, 1);
     padding: 0;
     border-bottom: 1px solid #e72929;
   }
   
   .header a {
-    color: #af1313;
+    color: hwb(0 1% 4%);
   }
   
   .header a:hover {
-    background: #e72929;
-    color: white;
+    background: #da0f0f;
+    color: rgb(240, 241, 243);
     cursor: pointer;
   }
   
@@ -43,7 +43,7 @@
   .menu {
     position: absolute;
     z-index: 1001;
-    background-color: whitesmoke;
+    background-color: rgb(168, 146, 99);
     display: none;
   }
   
